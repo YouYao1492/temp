@@ -12,6 +12,15 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MealOrder">
         <activity
+            android:name=".ConfirmActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DrinkActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SideDishesActivity"
+            android:exported="false" />
+        <activity
             android:name=".MainMealActivity"
             android:exported="false" />
         <activity
